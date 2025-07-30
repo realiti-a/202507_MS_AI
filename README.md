@@ -1,0 +1,2 @@
+# 202507_MS_AI
+202507_MS_AI Project
