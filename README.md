@@ -41,21 +41,6 @@
 
 ## 🧠 기술 아키텍처
 
-```mermaid
-graph TD;
-    User -->|입력| Streamlit_UI
-    Streamlit_UI --> Azure_Functions
-    Azure_Functions -->|LangChain Agent| GPT_Model
-    Azure_Functions --> Azure_AI_Search
-    Azure_Functions --> Cosmos_DB
-    GPT_Model --> Output
-    Azure_AI_Search --> Output
-    Cosmos_DB --> Output
-    Output --> Streamlit_UI
-```
-
-## 🏗️ 아키텍처
-
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │   Streamlit     │    │   AI Agent       │    │  Azure OpenAI   │
