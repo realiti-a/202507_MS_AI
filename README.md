@@ -52,6 +52,7 @@ graph TD;
     Azure_AI_Search --> Output
     Cosmos_DB --> Output
     Output --> Streamlit_UI
+```
 
 ## 🏗️ 아키텍처
 
